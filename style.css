@@ -19,12 +19,14 @@ button {
     color: white;
     height: 40px;
     width: 290px;
-    font-size: 14px; 
+    font-size: 14px;
+    transition: transform 1.5s; 
 }
 
 button:hover {
     background-color: #c5f82a;
-    color: #1f1f1f; 
+    color: #1f1f1f;
+    transform: scale(1.1); 
 }
 
 img {
