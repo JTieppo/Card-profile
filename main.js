@@ -1,3 +1,3 @@
-function botaotwitter(){
-    
+function botaoDesativado(){
+    window.alert("Botão desativado");
 }
