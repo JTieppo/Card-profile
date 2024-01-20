@@ -1,4 +1,4 @@
-$verde: hsl(75, 94%, 57%);
+$green: hsl(75, 94%, 57%);
 $off-black: hsl(0, 0%, 8%);
 $white: hsl(0, 0%, 100%);
 $gray: hsl(0, 0%, 20%);
@@ -9,15 +9,14 @@ $dark-gray: hsl(0, 0%, 12%);
     src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
 }
 
+
 * {
     font-family: Inter;
     color: $white;
 }
-
 body {
     background-color: $off-black;
 }
-
 button {
     background-color: $gray;
     border: 0;
@@ -29,28 +28,22 @@ button {
     font-size: 14px;
 
 }
-
 button:hover {
-    background-color: $verde;
+    background-color: $green;
     color: $dark-gray;
 }
-
 img {
     border-radius: 100%;
     margin-top: 12%;
     width: 180px;
 }
-
 h2 {
     margin-bottom: 6px;
 }
-
 h5 {
     margin: 0;
-    margin-bottom: 28px;
-    
+    margin-bottom: 28px;   
 }
-
 
 
 .desativado {
@@ -78,8 +71,10 @@ h5 {
 }
 
 .localizacao {
-    color: $verde;
+    color: $green;
 }
+
+
 
 @media (max-width: 1100px) {
     .card {
@@ -91,7 +86,6 @@ h5 {
         width: 250px;
     }
 }
-
 @media (max-width: 1000px) {
     .card {
         margin-left: 28%;
@@ -102,7 +96,6 @@ h5 {
         width: 220px;
     }
 }
-
 @media (max-width: 900px) {
     .card {
         margin-left: 20%;
@@ -114,7 +107,6 @@ h5 {
         
     }
 }
-
 @media (max-width: 700px) {
     .card {
         margin-left: 5%;
