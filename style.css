@@ -21,6 +21,7 @@ button {
     width: 290px;
     font-size: 14px;
     transition: transform 1.5s; 
+    cursor: pointer;
 }
 
 button:hover {
